@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 27px;
+    color: #697586;
+    max-width: 1280px;
+    margin: auto;
+    justify-content: space-between;
+}
+.button {
+    padding: 17px 33px;
+    box-sizing: border-box;
+    border: 1px solid #CDD5DF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #202939;
+    /*max-height: 58px;*/
+    margin-top: 98px;
+    border-radius: 64px;
+}
+a {
+    text-decoration: none;
+}
+.container article {
+    position: relative;
+}
+article {
+    background-color: #F3F5F7;
+    border-radius:  16px;
+    max-width: 405px;
+    box-sizing: border-box;
+}
+
+article .description p {
+    margin: 7px 0 22px;
+}
+.description {
+    padding: 32px 24px;
+}
+/*.description {*/
+/*    position: absolute;*/
+/*    width: 100%;*/
+/*    padding: 30px;*/
+/*    box-sizing: border-box;*/
+/*    bottom: 0;*/
+/*    left: 0;*/
+/*}*/
+.description p {
+    max-width: 317px;
+}
+
+.headline-Latest_posts {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C2769;
+    padding: 4px 12px;
+    box-sizing: border-box;
+    background: #EDEBF7;
+    border-radius: 24px;
+    max-width: 120px;
+}
+h3 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #202939;
+    margin: 14px 0 25px;
+}
+h4 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    color: #202939;
+}
+.Read_more {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #111827;
+    display: flex;
+}
+article .description .Read_more:after {
+    display: inline-block;
+    content: "";
+    width: 24px;
+    background: url("../img/Next_icon.png") no-repeat;
+    margin-left: 2px;
+    height: 24px;
+}
+.descr {
+    padding: 4px 12px;
+    background: #CF4D74;
+    border-radius: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 24px;
+    top: 24px;
+}
+.Latest_posts .container:first-child {
+    margin-bottom: 80px;
+}
